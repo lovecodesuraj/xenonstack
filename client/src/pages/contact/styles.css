@@ -1,0 +1,37 @@
+.form{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4285F4;
+    flex-direction: column;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+
+    gap: 20px;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+form input,textarea{
+    padding: 4px 6px;
+    /* border-radius: 5px; */
+
+}
+form button{
+    background-color: #111333;
+}
+
+@media only screen and (max-width:500px){
+    form{
+        width:90vw;
+        height:70vh;
+    }
+}
