@@ -29,8 +29,6 @@
 .intro_home_text{
   padding: 150px 150px;
 
-  /* display: flex; */
-  /* flex-direction: column; */
 }
 .intro_home_text h1{
   color: #86AF35;
@@ -56,4 +54,20 @@
   background-color: #80A92A;
   color: #FEE0C4;
   /* background-color: ; */
+}
+
+@media only screen and (max-width:500px){
+  .intro_home{
+    display: flex;
+    flex-direction: column;
+  }
+  .intro_home img{
+    width: 80vw;
+    padding-top: 70px;
+  }
+  .intro_home_text{
+    width: 90vw;
+    text-align: center;
+    padding: 70px 20px;
+  }
 }
