@@ -13,6 +13,7 @@ const Home = () => {
         <div className="intro_home" >
           <img src={BGI} className='intro_home_image' alt="" />
            <div className="intro_home_text">
+            {user && <p>Welcome {user?.name}</p>}
             <h1>We ride cars</h1>
             <p>
 "Discover your dream car at Carmarket. From sleek sedans to powerful SUVs, explore our curated collection for a seamless car-buying experience. Your perfect ride awaits!"</p>
